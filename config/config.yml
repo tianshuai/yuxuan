@@ -1,0 +1,14 @@
+defaults: &defaults
+  app_name: "YuXuan"
+  domain: "127.0.0.1:3000"
+  emails:
+    - "admin@admin.com"
+    - "aaaa@sina.com"
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
